@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hakkımızda</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: darkkhaki;
+        }
+        div {
+            box-sizing: border-box;
+            border: 5px solid black;
+            border-radius: 25px;
+            margin: 35px 40%;
+            padding: 5px;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <img src="https://teknoloji.marmara.edu.tr/_assets/marmara/custom/images/mar_logo.png?v=1.1" alt="Marmara Üniversitesi">
+    <h1>Hakkımızda</h1>
+    <div id="div1">
+        <h2>Cihat Yeşildağ</h2>
+    </div>
+    <div id="div2">
+        <h2>Muhammet Karadağ</h2>
+    </div>
+    <div id="div3">
+        <h2>Yusuf Mert Toros</h2>
+    </div>
+    <div id="div4">
+        <h2>Emre Turgut</h2>
+    </div>
+    <script type="text/javascript">
+        document.querySelector('#div1').addEventListener('mouseover',()=>{
+            document.querySelector('#div1').innerHTML = '<i style="color: darkgreen;">Ben Cihat Yeşildağ. 1998 Bursa doğumluyum. Tophane ATL\'den mezun oldum ve Marmara Üniversitesinde öğretim hayatıma devam ediyorum.</i>';
+        })
+        document.querySelector('#div1').addEventListener('mouseout',()=>{
+            document.querySelector('#div1').innerHTML = '<h2>Cihat Yeşildağ</h2>';
+        })
+        
+        document.querySelector('#div2').addEventListener('mouseover',()=>{
+            document.querySelector('#div2').innerHTML = 'Ben Muhammet. 1999 İstanbul doğumluyum.  Marmara Üniversitesinde öğretim hayatıma devam ediyorum.';
+        })
+        document.querySelector('#div2').addEventListener('mouseout',()=>{
+            document.querySelector('#div2').innerHTML = '<h2>Muhammet Karadağ</h2>';
+        })
+        
+        document.querySelector('#div3').addEventListener('mouseover',()=>{
+            document.querySelector('#div3').innerHTML = 'Benim Adım Yusuf Mert Toros. İzmir\'de yaşıyorum. En sevdiğim renkler göremediğim renklerdir. Boş zamanlarımda kendimi geliştiririm.';
+        })
+        document.querySelector('#div3').addEventListener('mouseout',()=>{
+            document.querySelector('#div3').innerHTML = '<h2>Yusuf Mert Toros</h2>';
+        })
+        
+         document.querySelector('#div4').addEventListener('mouseover',()=>{
+            document.querySelector('#div4').innerHTML = 'Ben Emre Turgut. 2000 yılında Bursa\'da doğdum. Marmara Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim.';
+        })
+        document.querySelector('#div4').addEventListener('mouseout',()=>{
+            document.querySelector('#div4').innerHTML = '<h2>Emre Turgut</h2>';
+        })
+    </script>
+</body>
+</html>
