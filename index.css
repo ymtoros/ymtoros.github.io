@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(87, 82, 82);
+}
+
+div {
+    border: 1px solid black;
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+
+li {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 30px 30px;
+    width: 24%;
+}
+
+li:hover {
+    background-color: darkmagenta;
+}
+
+.liste {
+    width: 100%;
+    border: none;
+}
+
+.onemli {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
